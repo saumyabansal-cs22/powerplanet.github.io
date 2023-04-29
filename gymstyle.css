@@ -1,0 +1,105 @@
+.left{
+    /* border: 5px solid black; */
+    display: inline-block;
+    left: 34 px;
+    position: absolute;
+    top:20px;
+    font-size: 25px;
+    margin-left: 20px;
+    color: black;
+
+}
+.left img{
+    width: 25px;
+    height: 25px;
+    
+}
+.middle{
+    /* border: 5px solid green; */
+    display: block;
+    margin: -86px 300px;
+    width: 66%;
+    position: fixed;
+    
+
+}
+.right{
+    /* border: 5px solid rgb(173, 24, 24); */
+    right: 34px;
+    position: absolute;
+    top:20px;
+    display: inline-block;
+
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li {
+    display: inline-block;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    padding: 34px 23px;
+
+}
+.navbar li a.active,.navbar li a:hover{
+    text-decoration: underline;
+    color: black;
+}
+.left img{
+    width: 131px;
+    height: 154px;
+}
+.left{
+    text-align: center;
+}
+.btn{
+    /* font-family: Arial, Helvetica, sans-serif; */
+    margin: 0px 9px;
+    color: white;
+    background-color: black;
+    padding:10px 25px;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 19px;
+    
+}
+.btn:hover{
+    background-color: grey;
+}
+.container{
+    /* border: 2px solid purple; */
+    margin: 102px 653px;
+    padding: 23px 82px;
+    width: 45%;
+    border-radius: 20px;
+    color: black;
+    
+}
+.container button{
+    margin-left: 66px;
+    width: 71%;
+    display: block;
+}
+.form-group{
+    text-align: center;
+    display: block;
+    width: 375px;
+    padding: 1px;
+    margin: 3px auto;  
+    font-size: 20px; 
+    font-family: 'Times New Roman', Times, serif;
+}
+.form-group h1{
+    text-align: center;
+}
+.form-group input{
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 5px;
+    margin: 11px;
+    padding: 2px 2px;
+    text-align: center;
+}
