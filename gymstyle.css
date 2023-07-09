@@ -1,3 +1,6 @@
+body{
+    background-image: url("gym background.jpg");
+}
 .left{
     /* border: 5px solid black; */
     display: inline-block;
@@ -79,8 +82,8 @@
     
 }
 .container button{
-    margin-left: 66px;
-    width: 71%;
+    margin-left: 170px;
+    width: 37%;
     display: block;
 }
 .form-group{
@@ -92,8 +95,10 @@
     font-size: 20px; 
     font-family: 'Times New Roman', Times, serif;
 }
-.form-group h1{
+.container h1{
     text-align: center;
+    /* margin-left: auto; */
+    /* margin: 24px 0px; */
 }
 .form-group input{
     font-size: 20px;
